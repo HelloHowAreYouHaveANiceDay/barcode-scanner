@@ -26,9 +26,15 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 
 import Quagga from "quagga";
 
+
 interface barcode {
   code: string;
   type: string;
+}
+
+interface codeResult {
+  code: string;
+  format: string;
 }
 
 @Component
