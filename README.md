@@ -2,6 +2,8 @@
 
 simple barcode scanner build using quggajs
 
+![reader gif](GIF.gif)
+
 ## Project setup
 ```
 npm install
